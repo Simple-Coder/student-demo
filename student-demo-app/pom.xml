@@ -12,7 +12,7 @@
     <artifactId>student-demo-app</artifactId>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <start-class>com.pds.Application</start-class>
+        <start-class>com.practice.Application</start-class>
     </properties>
 
     <dependencies>
@@ -50,6 +50,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
             <version>${springboot.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.practice</groupId>
+            <artifactId>student-demo-common-impl</artifactId>
+            <version>1.0.0</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
@@ -136,7 +142,7 @@
                 <filtering>true</filtering>
                 <directory>src/main/resources</directory>
                 <includes>
-                    <include>spring/${activatedProperties}/*</include>
+                    <include>spring/${activatedProperties}/*.xml</include>
                     <include>application.properties</include>
                     <include>application-${activatedProperties}.properties</include>
                     <!--<include>banner.txt</include>-->
