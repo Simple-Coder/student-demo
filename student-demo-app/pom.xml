@@ -139,15 +139,18 @@
 
         <resources>
             <resource>
+                <directory>src/main/resources/</directory>
                 <filtering>true</filtering>
+            </resource>
+
+            <resource>
+                <filtering>false</filtering>
                 <directory>src/main/resources</directory>
                 <includes>
                     <include>spring/${activatedProperties}/*.xml</include>
                     <include>application.properties</include>
                     <include>application-${activatedProperties}.properties</include>
-                    <!--<include>banner.txt</include>-->
                     <include>logback.xml</include>
-                    <!--<include>message.properties</include>-->
                 </includes>
             </resource>
         </resources>

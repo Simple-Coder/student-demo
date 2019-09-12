@@ -10,6 +10,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>student-demo-common-inf</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>com.practice</groupId>
+            <artifactId>student-demo-common-base</artifactId>
+            <version>${common.version}</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 
 </project>

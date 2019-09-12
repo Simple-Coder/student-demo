@@ -356,8 +356,6 @@
     </build>
 
     <modules>
-        <module>student-demo-app</module>
-        <module>student-demo-app</module>
         <module>student-demo-job</module>
         <module>student-demo-common-inf</module>
         <module>student-demo-common-impl</module>

@@ -1,5 +1,7 @@
 package com.practice.service;
 
+import com.practice.common.model.Student;
+
 import java.util.List;
 
 /**
@@ -12,5 +14,5 @@ import java.util.List;
  * @Version: 1.0
  */
 public interface StudentService {
-//    List<Student> queryAllStudents();
+    List<Student> queryAllStudents();
 }
